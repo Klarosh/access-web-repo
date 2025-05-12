@@ -1,0 +1,77 @@
+.swiper {
+    @apply w-[90%] pb-8;
+  }
+  
+  .swiper-slide {
+    @apply w-[90vw] sm:w-[550px] h-[350px];
+  }
+  
+  .gameCardSlider {
+    @apply relative w-full h-full bg-center bg-cover p-4 sm:p-6 overflow-hidden rounded-3xl shadow-xl;
+  }
+  
+  .gameCardSlider::after {
+    content: "";
+    @apply absolute top-0 left-0 right-0 bottom-0 bg-black/30 rounded-3xl;
+  }
+  
+  .swiper-slide img {
+    @apply absolute top-0 left-0 w-full h-full object-cover object-center rounded-3xl;
+  }
+  
+  .swiper-button-prev,
+  .swiper-button-next {
+    @apply absolute w-10 h-10 sm:w-12 sm:h-12 bg-white/20 rounded-full backdrop-blur bottom-4 flex items-center justify-center;
+  }
+  
+  .swiper-button-prev::after,
+  .swiper-button-next::after {
+    @apply text-lg sm:text-xl text-white;
+  }
+  
+  .gameCardSlider .content {
+    @apply absolute bottom-4 z-50 w-[90%] sm:w-3/5;
+  }
+  
+  .gameCardSlider .content h2 {
+    @apply text-2xl sm:text-4xl font-cyber text-white;
+  }
+  
+  .gameCardSlider .content p {
+    @apply text-xs sm:text-sm text-blue-100;
+  }
+  
+  .gameCardSlider .content .price {
+    @apply mt-1 sm:mt-2 text-yellow-300 font-bold;
+  }
+  
+  .gameCardSlider .content .buttons {
+    @apply flex flex-wrap items-center gap-4 sm:gap-5 mt-3 sm:mt-4;
+  }
+  
+  .gameCardSlider .content .buttons a,
+  .gameCardSlider .content .buttons button {
+    @apply text-white uppercase no-underline;
+  }
+  
+  .orderBtn {
+    @apply px-4 sm:px-5 py-1.5 sm:py-2 bg-violet-300 rounded-lg hover:bg-violet-300/80 transition text-sm;
+  }
+  
+  .playBtn {
+    @apply w-10 h-10 sm:w-12 sm:h-12 bg-white/20 backdrop-blur rounded-full flex items-center justify-center text-2xl sm:text-3xl hover:bg-white/30 transition;
+  }
+  
+  .video iframe {
+    @apply absolute top-0 right-0 w-full sm:w-[85%] h-[60vh] sm:h-[75%] rounded-3xl border-[5px] border-transparent bg-yellow-100 shadow-[0_5px_15px_rgba(0,0,0,0.35)] z-[1100] opacity-0 scale-0 origin-top-right transition duration-500;
+    visibility: hidden;
+  }
+  
+  .swiper-slide-active .video iframe {
+    @apply opacity-100 scale-100;
+    visibility: visible;
+  }
+  .closeBtn {
+    @apply absolute top-4 right-4 z-[1200] text-white bg-black/40 backdrop-blur-md rounded-full p-2 text-lg hover:bg-black/60 transition;
+  }
+  

@@ -1,0 +1,52 @@
+{
+  "name": "access-denied",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@gsap/react": "^2.1.1",
+    "@react-spring/web": "^9.7.5",
+    "@react-three/drei": "^9.56.8",
+    "@react-three/fiber": "^8.18.0",
+    "@use-gesture/react": "^10.3.1",
+    "bootstrap-icons": "^1.12.1",
+    "clsx": "^2.1.1",
+    "framer-motion": "^12.9.4",
+    "gsap": "^3.13.0",
+    "hamburger-react": "^2.5.2",
+    "lucide-react": "^0.507.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-feather": "^2.0.10",
+    "react-hot-toast": "^2.5.2",
+    "react-icons": "^5.3.0",
+    "react-router-dom": "^7.5.3",
+    "react-use": "^17.5.1",
+    "swiper": "^11.2.6",
+    "three": "^0.176.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.13.0",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.3",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^9.14.0",
+    "eslint-plugin-react": "^7.37.2",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-react-refresh": "^0.4.14",
+    "eslint-plugin-tailwindcss": "^3.17.5",
+    "globals": "^15.11.0",
+    "postcss": "^8.4.49",
+    "prettier": "^3.3.3",
+    "tailwindcss": "^3.4.14",
+    "vite": "^5.4.10",
+    "vite-plugin-svgr": "^4.3.0"
+  }
+}
