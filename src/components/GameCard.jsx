@@ -4,7 +4,7 @@ import { EffectCoverflow, Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/navigation";
-import "./gameCard.css";
+import "./gamecard.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 
 const GameCard = () => {
