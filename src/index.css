@@ -73,6 +73,9 @@ body {
     color: black;
     border-color: #27e7e7;
   }
+  .nav-item:size {
+    font-size: 12px
+  }
 
   .floating-nav {
     @apply bg-black rounded-lg border;
