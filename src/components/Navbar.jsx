@@ -191,13 +191,23 @@ export default function NavBar() {
 
       {/* Mobile Controls */}
       <div className="lg:hidden fixed top-4 right-4 z-[9999] flex items-center gap-3">
-        <button
-          onClick={toggleAudio}
-          className="p-2 text-cyan-300 hover:text-white"
-          aria-label={isAudioPlaying ? "Mute" : "Unmute"}
-        >
-          {/* SVG icon */}
-        </button>
+      <button
+            onClick={toggleAudio}
+            className="p-2 text-cyan-300 hover:text-white transition-colors"
+            title={isAudioPlaying ? "Mute" : "Unmute"}
+            aria-label="Toggle Audio"
+          >
+            {isAudioPlaying ? (
+              <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5v14l-5-5H3a1 1 0 01-1-1v-2a1 1 0 011-1h1l5-5zM19 9l2 2m0 0l-2 2m2-2H15" />
+              </svg>
+            ) : (
+              <svg xmlns="http://www.w3.org/2000/svg" className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5v14l-5-5H3a1 1 0 01-1-1v-2a1 1 0 011-1h1l5-5zm7 4v6m2-4v2" />
+              </svg>
+            )}
+          </button>
+
         <Hamburger
           toggled={isNavVisible}
           toggle={() => {
@@ -277,7 +287,7 @@ export default function NavBar() {
                           playHoverSound(`hover-sound-${idx}`);
                           scrambleOnce(item.id, item.name);
                         }}
-                        className="text-xl"
+                        className="text-sm"
                       >
                         {scrambled[item.id] || "—".repeat(item.name.length)}
                         <audio
@@ -300,7 +310,7 @@ export default function NavBar() {
                       target="_blank"
                       rel="noopener noreferrer"
                       onMouseEnter={() => scrambleOnce(id, name)}
-                      className="text-xl"
+                      className="text-sm"
                     >
                       {scrambled[id] || "—".repeat(name.length)}
                     </a>
