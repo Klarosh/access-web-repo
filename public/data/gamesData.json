@@ -1,36 +1,29 @@
 [
     {
-      "title": "Cyber Developer Keychain",
-      "description": "Holographic keychain featuring a neon developer design",
-      "imageUrl": "/img/keychain-1.png",
+      "title": "Virel Pin",
+      "description": "Pin that featuring a character design",
+      "imageUrl": "/img/let/Virel.png",
       "price": "12.99",
       "videoUrl": "https://www.youtube.com/embed/OqmvHWZ2dhc"
     },
     {
-      "title": "Sage Gyatt Sticker",
-      "description": "Aesthetic Sage Gyatt Sticker",
-      "imageUrl": "/img/2.jpeg",
-      "price": "9.99",
-      "videoUrl": "https://www.youtube.com/embed/U8BlNEKq0r8"
-    },
-    {
-      "title": "Sage: Heavy To Carry",
-      "description": "Futuristic hacker lanyard with custom access glitch design",
-      "imageUrl": "/img/23.jpeg",
-      "price": "14.99",
-      "videoUrl": "https://www.youtube.com/embed/t5U0rrj0dio"
-    },
-    {
-      "title": "Zentry Skull Badge",
-      "description": "Cyberpunk inspired skull badge with magnetic clip",
-      "imageUrl": "/iamges/hero-1.png",
+      "title": "Soren Sticker",
+      "description": "Cp",
+      "imageUrl": "/img/let/Soren.png",
       "price": "11.49",
       "videoUrl":"https://www.youtube.com/embed/TtIxNViax14"
     },
     {
-      "title": "Neo Grid Patch",
+      "title": "Meme Stickers V1 pack",
       "description": "High-detail embroidered patch with neon grid overlay",
-      "imageUrl": "/img/BBQ.png",
+      "imageUrl": "/img/let/MemeV1.png",
+      "price": "8.99",
+      "videoUrl": "https://www.youtube.com/embed/hxSg2Ioz3LM"
+    },
+    {
+      "title": "Meme Stickers V2 pack",
+      "description": "High-detail embroidered patch with neon grid overlay",
+      "imageUrl": "/img/let/MemeV2.png",
       "price": "8.99",
       "videoUrl": "https://www.youtube.com/embed/hxSg2Ioz3LM"
     }

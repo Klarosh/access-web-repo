@@ -21,6 +21,8 @@ const GameCard = () => {
   return (
     <div className="mt-32 px-4 md:px-8">
       <Swiper
+       slidesOffsetBefore={50}
+       slidesOffsetAfter={50}
         effect={"coverflow"}
         grabCursor={true}
         navigation={true}
@@ -47,8 +49,9 @@ const GameCard = () => {
                 <p>{game.description}</p>
                 <p className="price">₱{game.price}</p>
                 <div className="buttons">
-                  <a href="#" className="orderBtn">
-                    Order Now
+                  <span className="absolute inset-0 bg-red-300 opacity-10 blur-lg animate-sweep rounded-xl pointer-events-none"></span>
+                  <a href="#" className="orderBtn z-10">
+                    View Store
                   </a>
                   <button
                     className={`playBtn ${activeIndex === index ? "active" : ""}`}
@@ -70,11 +73,12 @@ const GameCard = () => {
                     <i className="bi bi-x-lg"></i>
                   </button>
                   <iframe
+                    className="w-full h-full rounded-xl backdrop-blur-xl bg-black/30"
                     src={game.videoUrl}
                     frameBorder="0"
                     allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen
-                    title={game.title}
+                    title={game.title}                  
                   ></iframe>
                 </div>
               )}
