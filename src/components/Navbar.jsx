@@ -292,7 +292,7 @@ return (
             </div>
 
                 {/* Menu Items */}
-                <ul className=" bg-black space-y-4">
+                <ul className=" bg-black space-y-4 h-full">
                   {Menus.map((item, idx) => (
                     <motion.li
                       key={item.id}
@@ -327,7 +327,7 @@ return (
                 </ul>
 
                 {/* Social Links with scramble */}
-                <div className="mt-6 bg-blue-200 border-t border-gray-700 pt-2 flex flex-col items-center space-y-2">
+                <div className=" bg-blue-200 border-t border-gray-700 pt-2 flex flex-col items-center space-y-2">
                   {Socials.map(({ id, name, href }) => (
                     <a
                       key={id}
