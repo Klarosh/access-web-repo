@@ -8,18 +8,18 @@ import "./gamecard.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 
 const GameCard = () => {
-  const [games, setGames] = useState([]);
+  const [games, setItem] = useState([]);
   const [activeIndex, setActiveIndex] = useState(null);
 
   useEffect(() => {
     fetch("/data/gamesData.json")
       .then((res) => res.json())
-      .then((data) => setGames(data))
+      .then((data) => setItem(data))
       .catch((e) => console.error("Error loading games:", e));
   }, []);
 
   return (
-    <div className="mt-32 px-4 md:px-8">
+    <div className="mt-32 px-4 md:px-8 ">
       <Swiper
        slidesOffsetBefore={50}
        slidesOffsetAfter={50}
@@ -49,7 +49,7 @@ const GameCard = () => {
                 <p>{game.description}</p>
                 <p className="price">₱{game.price}</p>
                 <div className="buttons">
-                  <span className="absolute inset-0 bg-red-300 opacity-10 blur-lg animate-sweep rounded-xl pointer-events-none"></span>
+                  <span className="absolute inset-0 bg-black opacity-10 blur-lg animate-sweep rounded-xl pointer-events-none"></span>
                   <a href="#" className="orderBtn z-10">
                     View Store
                   </a>

@@ -61,7 +61,7 @@ const About = () => {
           }}
         >
           <img
-            src="img/Valo.webp"
+            src="img/AccessDenied.jpeg"
             alt="Background"
             className="absolute left-0 top-0 w-full h-full object-cover" // Replaced size-full with explicit width and height
             loading="lazy"
