@@ -77,7 +77,7 @@ export default function StoreSection() {
     { title: "Soren Sticker", imageUrl: "/img/let/SorenSticker.png", price: { min: 15, max: 20 }, category: "Stickers", room: "Room 205" },
     { title: "Boss Sticker", imageUrl: "/img/let/BossSticker.png", price: { min: 15, max: 20 }, category: "Stickers", room: "Room 205" },
     { title: "Meme Sticker", imageUrl: "/img/let/MemeV1.png", price: { min: 15, max: 20 }, category: "Stickers", room: "Room 205" },
-    { title: "Phone Sticker", imageUrl: "/img/let/PhoneSticker.png", price: { min: 15, max: 20 }, category: "Stickers", room: "Room 305" }
+    { title: "Phone Sticker", imageUrl: "/img/let/PhoneSticker.png", price: { min: 15, max: 20 }, category: "Stickers", room: "Room 205" }
   ];
 
   // Load favorites from localStorage on mount
