@@ -73,10 +73,10 @@ export default function StoreSection() {
     { title: "Soren Pin", imageUrl: "/img/let/Soren.png", price: { min: 25, max: 30 }, category: "Pins", room: "Room 306" },
     { title: "Virel Pin", imageUrl: "/img/let/Virel.png", price: { min: 25, max: 30 }, category: "Pins", room: "Room 205" },
     { title: "Boss Pin", imageUrl: "/img/let/Boss.png", price: { min: 25, max: 30 }, category: "Pins", room: "Room 205" },
-    { title: "Virel Sticker", imageUrl: "/img/let/VirelSticker.png", price: { min: 15, max: 20 }, category: "Stickers", room: "Room 305" },
-    { title: "Soren Sticker", imageUrl: "/img/let/SorenSticker.png", price: { min: 15, max: 20 }, category: "Stickers", room: "Room 305" },
-    { title: "Boss Sticker", imageUrl: "/img/let/BossSticker.png", price: { min: 15, max: 20 }, category: "Stickers", room: "Room 305" },
-    { title: "Meme Sticker", imageUrl: "/img/let/MemeV1.png", price: { min: 15, max: 20 }, category: "Stickers", room: "Room 305" },
+    { title: "Virel Sticker", imageUrl: "/img/let/VirelSticker.png", price: { min: 15, max: 20 }, category: "Stickers", room: "Room 205" },
+    { title: "Soren Sticker", imageUrl: "/img/let/SorenSticker.png", price: { min: 15, max: 20 }, category: "Stickers", room: "Room 205" },
+    { title: "Boss Sticker", imageUrl: "/img/let/BossSticker.png", price: { min: 15, max: 20 }, category: "Stickers", room: "Room 205" },
+    { title: "Meme Sticker", imageUrl: "/img/let/MemeV1.png", price: { min: 15, max: 20 }, category: "Stickers", room: "Room 205" },
     { title: "Phone Sticker", imageUrl: "/img/let/PhoneSticker.png", price: { min: 15, max: 20 }, category: "Stickers", room: "Room 305" }
   ];
 

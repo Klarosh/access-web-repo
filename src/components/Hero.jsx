@@ -93,7 +93,7 @@ return ( <section id="Hero" className="min-h-dvh w-screen bg-blue-75 text-blue-5
     className="relative z-10 h-dvh w-screen overflow-hidden rounded-lg bg-transparent"
   >
     <div>
-      <div className="mask-clip-path absolute-center absolute z-50 size-64 cursor-pointer overflow-hidden rounded-lg">
+    <div className="mask-clip-path absolute-center absolute z-50 w-40 h-40 sm:w-56 sm:h-56 md:w-64 md:h-64 lg:w-80 lg:h-80 cursor-pointer overflow-hidden rounded-lg">
         <VideoPreview>
           <div
             onClick={handleMiniVdClick}
@@ -146,14 +146,8 @@ return ( <section id="Hero" className="min-h-dvh w-screen bg-blue-75 text-blue-5
           ac<b>ce</b>ss
         </h1>
         <p className="mb-5 max-w-64 font-robert-regular text-blue-100">
-          You are not authorized to enter the <br /> Access Denied
+          You are not authorized to enter the <br /> Room 305
         </p>
-        <Button
-          id="watch-trailer"
-          title="Watch trailer"
-          leftIcon={<TiLocationArrow />}
-          containerClass="bg-yellow-300 flex-center gap-1"
-        />
       </div>
     </div>
   </div>
