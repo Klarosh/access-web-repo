@@ -10,11 +10,6 @@ const Menus = [
 { id: 4, name: "Store", link: "/store" },
 ];
 
-const Socials = [
-  { id: 10, name: "DISCORD", href: "https://discord.gg/your-server" },
-  { id: 11, name: "INSTAGRAM", href: "https://instagram.com/your-profile" },
-];
-
 const CHARS = "ABCDEFGHIJKLMNOPQRSTUVWYZ";
 
 const desktopMenuVariants = {
