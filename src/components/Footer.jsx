@@ -12,8 +12,8 @@ const footerLinks = [
   {
     title: 'Follow Us',
     links: [
-      { label: 'Twitter', href: 'https://twitter.com/kprverse', external: true },
-      { label: 'Discord', href: 'https://discord.gg/kprverse', external: true },
+      { label: '', href: '', external: true },
+      { label: '', href: '', external: true },
     ],
   },
 ];

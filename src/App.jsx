@@ -6,6 +6,9 @@ import Features from "./components/Features";
 import GameCard from "./components/GameCard";
 import Store from "./components/Store";
 import Footer  from "./components/Footer";
+import Hidden  from "./components/hidden";
+import Contact from "./components/Contact";
+
 
 function App() {
   return (
@@ -19,11 +22,13 @@ function App() {
               <Hero />
               <About />
               <Features />
+              <Contact />
               <GameCard />
               <Footer />
             </main>
           }
         />
+        <Route path="/Hidden" element={<Hidden/> } />
         <Route path="/store" element={<Store/> } />
       </Routes>
     </Router>

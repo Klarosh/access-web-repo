@@ -104,22 +104,21 @@ const Features = () => (
     <div className="container mx-auto px-3 md:px-10">
       <div className="px-5 py-32">
         <p className="font-circular-web text-lg text-blue-50">
-          Into the ACCES DENIED
+          Into the ACCESS DENIED
         </p>
         <p className="max-w-md font-circular-web text-lg text-blue-50 opacity-50">
-          Immerse yourself in a rich and ever-expanding world.
+          Be Careful on trusting people on the <b>D</b>igital <b>W</b>orld, you might get hacked. 
         </p>
       </div>
-
       <BentoTilt className="border-hsla relative mb-7 h-96 w-full overflow-hidden rounded-md md:h-[65vh]">
         <BentoCard
           src="videos/feature-1.mp4"
           title={
             <>
-              Acce<b>s</b>s
+              Acce<b>s</b>s <b>D</b>enied
             </>
           }
-          description="A cross-platform sci-fi game app, turning your world be hacked by a hacker."
+          description="A cross-platform sci-fi game app, turning your Digital world be hacked by a hacker."
         />
       </BentoTilt>
 

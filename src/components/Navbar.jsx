@@ -10,6 +10,11 @@ const Menus = [
 { id: 4, name: "Store", link: "/store" },
 ];
 
+const Socials = [
+  { id: 10, name: " ", href: "" },
+  { id: 11, name: "", href: "" },
+];
+
 const CHARS = "ABCDEFGHIJKLMNOPQRSTUVWYZ";
 
 const desktopMenuVariants = {
