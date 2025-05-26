@@ -94,36 +94,35 @@ return ( <section id="Hero" className="min-h-dvh w-screen bg-blue-75 text-blue-5
   >
     <div>
     <div className="mask-clip-path absolute-center absolute z-50 w-40 h-40 sm:w-56 sm:h-56 md:w-64 md:h-64 lg:w-80 lg:h-80 cursor-pointer overflow-hidden rounded-lg">
-        <VideoPreview>
-          <div
-            onClick={handleMiniVdClick}
-            className="origin-center scale-50 opacity-0 transition-all duration-500 ease-in hover:scale-100 hover:opacity-100"
-          >
-            <video
-              ref={nextVdRef}
-              src={getVideoSrc((currentIndex % totalVideos) + 1)}
-              loop
-              muted
-              id="current-video"
-              className="size-64 origin-center scale-50 object-cover object-center"
-              onLoadedData={handleVideoLoad}
-              preload="auto"
-            />
-          </div>
-        </VideoPreview>
-      </div>
-
+  <VideoPreview>
+    <div
+      onClick={handleMiniVdClick}
+      className="origin-center scale-50 opacity-0 transition-all duration-500 ease-in hover:scale-100 hover:opacity-100"
+    >
       <video
         ref={nextVdRef}
-        src={getVideoSrc(currentIndex)}
+        src={getVideoSrc((currentIndex % totalVideos) + 1)}
         loop
         muted
-        id="next-video"
-        className="absolute-center invisible z-20 size-64 object-cover object-center"
+        id="current-video"
+        className="w-full h-full object-cover object-center"
         onLoadedData={handleVideoLoad}
         preload="auto"
       />
+    </div>
+  </VideoPreview>
+</div>
 
+<video
+  ref={nextVdRef}
+  src={getVideoSrc(currentIndex)}
+  loop
+  muted
+  id="next-video"
+  className="absolute-center invisible z-20 w-full h-full object-cover object-center"
+  onLoadedData={handleVideoLoad}
+  preload="auto"
+/>
       <video
         ref={currentVdRef}
         src={getVideoSrc(currentIndex === totalVideos ? 1 : currentIndex)}
