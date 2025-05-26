@@ -59,6 +59,13 @@ body {
     }
   }
 
+  html,
+body {
+  overflow-x: hidden;
+  max-width: 100vw;
+}
+
+
   .border-hsla {
     @apply border border-white/20;
   }

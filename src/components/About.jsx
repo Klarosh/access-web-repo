@@ -56,7 +56,7 @@ const About = () => {
           style={{
             WebkitBackfaceVisibility: "hidden", // Added WebKit prefix for older iOS
             backfaceVisibility: "hidden",
-            width: "401px", // ← Set width here
+            width: "400px", // ← Set width here
             height: "auto", // ← Optional, to keep it flexible
           }}
         >
