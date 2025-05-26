@@ -50,7 +50,7 @@ const GameCard = () => {
                 <p className="price">₱{game.price}</p>
                 <div className="buttons">
                   <span className="absolute inset-0 bg-black opacity-10 blur-lg animate-sweep rounded-xl pointer-events-none"></span>
-                  <a href="#" className="orderBtn z-10">
+                  <a href="#" className="orderBtn z-11">
                     View Store
                   </a>
                   <button

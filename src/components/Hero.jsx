@@ -15,7 +15,7 @@ const [hasClicked, setHasClicked] = useState(false);
 const [loading, setLoading] = useState(true);
 const [loadedVideos, setLoadedVideos] = useState(0);
 
-const totalVideos = 5;
+const totalVideos = 1;
 const nextVdRef = useRef(null);
 const currentVdRef = useRef(null);
 
