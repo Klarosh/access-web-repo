@@ -5,6 +5,7 @@ import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/navigation";
 import "./gamecard.css";
+import { Link } from "react-router-dom";
 import "bootstrap-icons/font/bootstrap-icons.css";
 
 const GameCard = () => {
@@ -50,9 +51,9 @@ const GameCard = () => {
                 <p className="price">₱{game.price}</p>
                 <div className="buttons">
                   <span className="absolute inset-0 bg-black opacity-10 blur-lg animate-sweep rounded-xl pointer-events-none"></span>
-                  <a href="#" className="orderBtn z-11">
+                  <Link to="/store" className="orderBtn z-10">
                     View Store
-                  </a>
+                  </Link>
                   <button
                     className={`playBtn ${activeIndex === index ? "active" : ""}`}
                     onClick={() =>
